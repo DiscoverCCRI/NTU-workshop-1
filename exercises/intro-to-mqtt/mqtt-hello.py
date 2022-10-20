@@ -45,7 +45,7 @@ client.on_subscribe = on_subscribe
 client.connect("192.168.1.123", 1883, 60)
 
 topic = "test/message/python"
-message = "Hello from Python!"
+message = "Hello from MQTT and Python!"
 
 client.publish(topic, message)
 
