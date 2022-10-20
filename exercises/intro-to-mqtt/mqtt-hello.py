@@ -42,7 +42,7 @@ client.on_publish = on_publish
 client.on_subscribe = on_subscribe
 
 # create connection, the three parameters are broker address, broker port number, keepalive (only broker address and broker port number are required)
-client.connect("192.168.1.123", 1883, 60)
+client.connect("[BROKER IP ADDRESS HERE]", 1883, 60)
 
 topic = "test/message/python"
 message = "Hello from MQTT and Python!"
